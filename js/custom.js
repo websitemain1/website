@@ -158,3 +158,25 @@
     });
 
 })(jQuery);
+
+
+document.getElementById('downloadCvLink').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent the default action of the link
+  
+  // URL of the CV file (make sure the file path is correct)
+  const cvUrl = 'cv.pdf';
+  
+  // Create a temporary anchor element
+  const link = document.createElement('a');
+  link.href = cvUrl;
+  link.download = 'cv.pdf'; // The default name of the downloaded file
+  
+  // Append the anchor to the document body
+  document.body.appendChild(link);
+  
+  // Programmatically click the anchor to trigger the download
+  link.click();
+  
+  // Remove the anchor from the document
+  document.body.removeChild(link);
+  });
