@@ -59,28 +59,28 @@
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .progress-line.C span{
-  width: 90%;
+  width: 50%;
 }
 .bar .progress-line.c span{
-  width: 60%;
+  width: 50%;
 }
 .bar .progress-line.python span{
-  width: 85%;
+  width: 75%;
 }
 .bar .progress-line.js span{
   width: 50%;
 }
 .bar .progress-line.html span{
-  width: 75%;
+  width: 99.99%;
 }
 .bar .progress-line.css span{
-	width: 70%;
+	width: 60%;
   }
   .bar .progress-line.mysql span{
-	width: 75%;
+	width: 90%;
   }
   .bar .progress-line.power span{
-	width: 75%;
+	width: 99.99%;
   }
 .progress-line span::before{
   position: absolute;
