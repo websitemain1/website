@@ -159,6 +159,7 @@
 
 })(jQuery);
 
+//cv
 
 document.getElementById('downloadCvLink').addEventListener('click', function(event) {
   event.preventDefault(); // Prevent the default action of the link
